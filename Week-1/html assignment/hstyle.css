@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+navbar {
+  position: absolute;
+  z-index: 0;
+  background-color: #f0f0f0;
+  color: #000;
+  width: 2rem;
+  height: 87vh;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+nav {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.header {
+  
+  border: 1px solid #454545 ;
+  float: left;
+  z-index: 22;
+  background-color: #454545;
+  color: #fff;
+  height: 32vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.header img {
+  height: 70%;
+  margin-left: 4rem;
+}
+
+.header-text {
+    border: 1px solid #454545 ;
+    color: white;
+  margin-left: 2rem;
+}
+.header i {
+  margin: 4rem 2rem 0 0;
+  font-size: 1rem;
+  color: #fff;
+  font-style:normal ;
+}
+
+table {
+  position: absolute;
+  top: 33vh;
+  left: 5%;
+  border-collapse: collapse;
+  width: 95%;
+  color: #000;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 15px;
+}
+
+tr:nth-child(even) {
+  background-color: #e1e0e0;
+}
+
+td:nth-child(4) span {
+  border: 2px solid #000;
+  color: blue;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #43689b;
+  color: #fff;
+  height: 10%;
+  width: 100%;
+  font-size: 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+    justify-content: center;  
+   text-align: center;
+   display: flex;
+  align-items: center;
+}
+.footer img {
+ border: 1px solid #cad018;
+  margin: 1rem;
+  height: 90%; 
+  text-align: center;
+  /* margin-bottom: 2%; */
+}
+
+.footer-text {
+    border: 1px solid #43689b;
+    width:50%;
+    height: 70%; 
+    text-align: left;
+    font-size: small;
+    /* margin-bottom: 2%; */
+  }
+
+
+.button {
+    border: 1px solid #43689b;
+    background-color: #43689b;
+    color: #fff;
+    height: 20%;
+    width: 99%;
+    font-size: 1rem;
+    display: flex;
+    flex-flow: row nowrap;
+     justify-content:flex-end;
+     justify-content: space-around; 
+     align-items: center;
+     /* flex-direction: right; */
+  }
