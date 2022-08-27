@@ -1,0 +1,69 @@
+
+
+.wrap{
+ position: absolute;
+    top:10em;
+    left:10em;
+    border: 2px solid black;
+    width: fit-content;
+    background-color: aqua;
+    width: 20em;
+    height:20em;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: -1;
+}
+h1{
+    position: absolute;
+    display: block;
+    left: 4.5em;
+    top:3.5em;
+    z-index: 1;
+}
+.wrap > div{
+    width: 10em;
+    height:10em;
+    transition: transform 1s linear;
+    transition-duration: 1s;
+    z-index: 2;
+}
+
+
+.s1{
+    background-color: red;
+    transform-origin: top left;
+}
+
+.s2{
+    background-color: blue;
+    transform-origin: top right;
+}
+.s3{
+    background-color: yellow;
+    transform-origin: bottom left;
+}
+.s4{
+    background-color: green;
+    transform-origin: bottom right;
+}
+
+.wrap:hover> .s1{
+    transform: rotate(90deg);
+
+}
+
+.wrap:hover> .s2{
+    transform: rotate(-90deg);
+
+}
+
+.wrap:hover> .s3{
+    transform: rotate(-90deg);
+
+}
+
+.wrap:hover> .s4{
+    transform: rotate(90deg);
+
+}
