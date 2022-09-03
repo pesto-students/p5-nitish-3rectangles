@@ -23,8 +23,10 @@ when log function is invoked. it prints the value in message variable.
 ##NOTE: the message variable isnt executed hence no change in the value of message variable, instead
 if  following was executed.
 output would had been: Count is 3
+``` JavaScript
+
 function log() {
         message = `Count is ${count}`;
       console.log(message);
     }
-
+```
