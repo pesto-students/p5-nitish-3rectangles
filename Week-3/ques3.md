@@ -20,7 +20,7 @@ Execution Steps:
 increment stores reference of increment() function with its closure.
 when its invoked three times. the value stored in count increments to 3.
 when log function is invoked. it prints the value in message variable.
-NOTE: the message variable isnt executed hence no change in the value of message variable, instead
+##NOTE: the message variable isnt executed hence no change in the value of message variable, instead
 if  following was executed.
 output would had been: Count is 3
 function log() {
